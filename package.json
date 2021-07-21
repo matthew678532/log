@@ -1,0 +1,29 @@
+{
+  "name": "@matthew678532/log",
+  "version": "1.0.0",
+  "description": "Log utility for nodejs projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jasmine",
+    "coverage": "nyc npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthew678532/log.git"
+  },
+  "keywords": [
+    "log",
+    "utility",
+    "nodejs"
+  ],
+  "author": "Matthew Birch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthew678532/log/issues"
+  },
+  "homepage": "https://github.com/matthew678532/log#readme",
+  "devDependencies": {
+    "jasmine": "^3.8.0",
+    "nyc": "^15.1.0"
+  }
+}
